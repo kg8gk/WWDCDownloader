@@ -12,29 +12,30 @@
 
 ### 重命名脚本
 
-    1. 首先在视频目录下clone一份字幕文件：
+1. 首先在视频目录下clone一份字幕文件：
 
-        `git clone https://github.com/qiaoxueshi/WWDC_2014_Video_Subtitle`
+        git clone https://github.com/qiaoxueshi/WWDC_2014_Video_Subtitle
 
-    2. 接着把字幕挪到跟视频同一个目录下：
+2. 接着把字幕挪到跟视频同一个目录下：
 
-        `mv WWDC_2014_Video_Subtitle/*.srt .`
+        mv WWDC_2014_Video_Subtitle/*.srt .
 
-    3. 更改rename_subtitle权限：
+3. 更改rename_subtitle权限：
 
-        `chmod 744 rename_subtitles.rb`
+        chmod 744 rename_subtitles.rb
 
-    4. 执行它：
+4. 执行它：
 
         ./rename_subtitles.rb
 
-    5. 当然，要直接执行也是OK的：
+5. 当然，要直接执行也是OK的：
 
-       ruby rename_subtitles.rb
+        ruby rename_subtitles.rb
 
 ## References
 
 * **[iWangKe的WWDC Sessions下载脚本]**：http://www.iwangke.me/2014/06/07/wwdc-2014-download-script/
-* **[qiaoxueshi的字母repo]**: https://github.com/qiaoxueshi/WWDC_2014_Video_Subtitle
+* **[qiaoxueshi的字幕repo]**: https://github.com/qiaoxueshi/WWDC_2014_Video_Subtitle
+
 [0]: http://www.iwangke.me/2014/06/07/wwdc-2014-download-script/ "下载脚本"
 [1]: https://github.com/qiaoxueshi/WWDC_2014_Video_Subtitle "字幕"
